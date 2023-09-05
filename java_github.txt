@@ -7,8 +7,8 @@ public class Main
         Set<String> fruitSet = new HashSet<>();
         fruitSet.add("Apple");
         fruitSet.add("Banana");
-        fruitSet.add("Orange");
-        fruitSet.add("Mango");
+        fruitSet.add("Kiwi");
+        fruitSet.add("Strawberry");
 
         System.out.println("Set Example:");
         for (String fruit : fruitSet) {
@@ -18,10 +18,10 @@ public class Main
 
         // List
         List<Integer> numberList = new ArrayList<>();
-        numberList.add(10);
-        numberList.add(20);
-        numberList.add(30);
-        numberList.add(40);
+        numberList.add(100);
+        numberList.add(200);
+        numberList.add(300);
+        numberList.add(400);
 
         System.out.println("List Example:");
         for (int number : numberList) {
