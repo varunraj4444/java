@@ -1,0 +1,32 @@
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // Concatenation
+        String str3 = str1 + " " + str2;
+        System.out.println(str3);
+
+        // Length
+        int len = str3.length();
+        System.out.println("The length of the string is " + len);
+
+        // Substring
+        String subStr = str3.substring(0, 5);
+        System.out.println("The substring is " + subStr);
+
+        // toLowerCase
+        String lowerStr = str3.toLowerCase();
+        System.out.println("The lowercase string is " + lowerStr);
+
+        // toUpperCase
+        String upperStr = str3.toUpperCase();
+        System.out.println("The uppercase string is " + upperStr);
+
+        // equals
+        boolean equals = str1.equals(str2);
+        System.out.println("The strings are " + (equals ? "equal" : "not equal"));
+    }
+}
